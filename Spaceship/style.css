@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #252330;
+}
+
+svg {
+  position: absolute;
+  min-width: 100vw;
+  max-height: 100vh;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+  overflow: visible;
+  opacity: 0;
+}
+
+/* for debugging where your shapes are */
+/* #ufo {
+  outline: solid 2px red;
+}
+*/
